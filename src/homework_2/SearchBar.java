@@ -11,36 +11,15 @@ public class SearchBar {
         System.out.println(getValues() + "\n");
     }
 
-    public void setValues (String field, String icon) {
+    public void setValues(String field, String icon) {
         this.field = field;
         this.icon = icon;
     }
 
-    public String getValues () {
+    public String getValues() {
         String info = "Открыто поле поиска с надписью " + field + "\n" + "Теперь в этом поле можно написать название нужного товара" + "\n" + "И " + icon + "\n" + "Но нам этого не нужно, остаемся на этой странице";
         return info;
     }
 
 
-
-
-
-
-
-
-
-
-
-   // public void setField(String field) {
-    //    this.field = field;
-  //  }
-
-  //  public void setIcon(String icon) {
-     //   this.icon = icon;
-   // }
-
-
-  //  public String getField() {
-     //   return field;
-   // }
 }
